@@ -1,4 +1,19 @@
 # get two numeric parameters
+# return sum
+def plus(x, y):
+    return x + y
+
+# get two numeric parameters
+# return difference
+def minus(x, y):
+    return x - y
+
+# get two numeric parameters
+# return product
+def multiply(x, y):
+    return x * y
+
+# get two numeric parameters
 # return quotient
 def divide(x, y):
     return x / y if y != 0 else float('inf') #양의 무한대임을 명시하여 알려줌
